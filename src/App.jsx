@@ -61,6 +61,15 @@ function App() {
               واتساب
             </a>
           </div>
+          <div className="flex flex-col md:flex-row gap-4 justify-center mt-6">
+            {/* Call Button */}
+            <a
+              href={`tel:${phoneNumber}`}
+              className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded shadow-md text-center w-full md:w-auto"
+            >
+              0594962551
+            </a>
+          </div>
         </div>
       </div>
     </>
